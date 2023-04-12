@@ -15,19 +15,19 @@ The repository includes several files:
 cd vre-process_nextflow-executor/tests
 ```
 
-2. Clone the [LRGASP workflow repository](https://github.com/TianYuan-Liu/lrgasp-challenge-3_benchmarking_workflow) and rename the folder to LRGASP
+2. Clone the [LRGASP workflow repository](https://github.com/TianYuan-Liu/lrgasp-challenge-3_manatee_benchmarking_workflow) and rename the folder to  LRGASP_manatee
 ```
-git clone https://github.com/TianYuan-Liu/lrgasp-challenge-3_benchmarking_workflow.git
-mv lrgasp-challenge-3_benchmarking_workflow LRGASP
+git clone https://github.com/TianYuan-Liu/lrgasp-challenge-3_manatee_benchmarking_workflow.git
+mv lrgasp-challenge-3_benchmarking_workflow LRGASP_manatee
 ```
 3. Materialize both the containers and datasets needed by the LRGASP test:
 ```
-cd LRGASP
+cd LRGASP_manatee
 bash ./materialize-data.sh
 bash ./materialize-containers.sh
 ```
-4. Run the tests from LRGASP example
+4. Run the tests from LRGASP_manatee example
 ```
 cd ../..
-./test_VRE_NF_RUNNER.sh LRGASP
+./test_VRE_NF_RUNNER.sh LRGASP_manatee
 ```

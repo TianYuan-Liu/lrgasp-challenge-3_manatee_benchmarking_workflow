@@ -1,0 +1,63 @@
+{
+    "_id": "OEBE0100000000",
+    "challenge_ids": [
+        "manatee_%_canonical_SJ_vs_%_SJ_SR_coverage"
+    ],
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 2.2,
+                    "metric_y": 7.09,
+                    "participant_id": "illumina_1"
+                },
+                {
+                    "metric_x": 0,
+                    "metric_y": 0,
+                    "participant_id": "ONT_1"
+                },
+                {
+                    "metric_x": 51.64,
+                    "metric_y": 61.47,
+                    "participant_id": "ONT_2"
+                },
+                {
+                    "metric_x": 81.26,
+                    "metric_y": 96.77,
+                    "participant_id": "ONT_3"
+                },
+                {
+                    "metric_x": 2.38,
+                    "metric_y": 7.24,
+                    "participant_id": "ONT_4"
+                },
+                {
+                    "metric_x": 52.19,
+                    "metric_y": 61.6,
+                    "participant_id": "ONT_5"
+                },
+                {
+                    "metric_x": 95.57,
+                    "metric_y": 99.21,
+                    "participant_id": "PB_1"
+                },
+                {
+                    "metric_x": 87.87,
+                    "metric_y": 97.46,
+                    "participant_id": "PB_2"
+                },
+                {
+                    "metric_x": 2.02,
+                    "metric_y": 6.48,
+                    "participant_id": "PB_3"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Splice Junctions with short-read coverage",
+                "y_axis": "% canonical Splice Junctions"
+            }
+        }
+    },
+    "type": "aggregation"
+}

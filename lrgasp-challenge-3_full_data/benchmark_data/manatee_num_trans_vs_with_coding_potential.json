@@ -1,0 +1,64 @@
+{
+    "_id": "OEBE0100000000",
+    "challenge_ids": [
+        "manatee_num_trans_vs_with_coding_potential"
+    ],
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 916861,
+                    "metric_y": 43135,
+                    "participant_id": "illumina_1"
+                },
+                {
+                    "metric_x": 0,
+                    "metric_y": 0,
+                    "participant_id": "ONT_1"
+                },
+                {
+                    "metric_x": 179356,
+                    "metric_y": 89030,
+                    "participant_id": "ONT_2"
+                },
+                {
+                    "metric_x": 63001,
+                    "metric_y": 42146,
+                    "participant_id": "ONT_3"
+                },
+                {
+                    "metric_x": 543468,
+                    "metric_y": 41985,
+                    "participant_id": "ONT_4"
+                },
+                {
+                    "metric_x": 177141,
+                    "metric_y": 78878,
+                    "participant_id": "ONT_5"
+                },
+                {
+                    "metric_x": 1916,
+                    "metric_y": 1233,
+                    "participant_id": "PB_1"
+                },
+                {
+                    "metric_x": 25643,
+                    "metric_y": 17643,
+                    "participant_id": "PB_2"
+                },
+                {
+                    "metric_x": 294610,
+                    "metric_y": 29637,
+                    "participant_id": "PB_3"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Number of transcripts",
+                "y_axis": "Number of transcripts with coding potential"
+            }
+        }
+    },
+    "type": "aggregation"
+}
+

@@ -1,0 +1,63 @@
+{
+    "_id": "OEBE0100000000",
+    "challenge_ids": [
+        "manatee_sirvs"
+    ],
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 0,
+                    "metric_y": 0,
+                    "participant_id": "illumina_1"
+                },
+                {
+                    "metric_x": 0.01,
+                    "metric_y": 0.02,
+                    "participant_id": "ONT_1"
+                },
+                {
+                    "metric_x": 0.65,
+                    "metric_y": 0.04,
+                    "participant_id": "ONT_2"
+                },
+                {
+                    "metric_x": 0.22,
+                    "metric_y": 0.16,
+                    "participant_id": "ONT_3"
+                },
+                {
+                    "metric_x": 0,
+                    "metric_y": 0,
+                    "participant_id": "ONT_4"
+                },
+                {
+                    "metric_x": 0.38,
+                    "metric_y": 0.13,
+                    "participant_id": "ONT_5"
+                },
+                {
+                    "metric_x": 0.01,
+                    "metric_y": 0.05,
+                    "participant_id": "PB_1"
+                },
+                {
+                    "metric_x": 0.22,
+                    "metric_y": 0.39,
+                    "participant_id": "PB_2"
+                },
+                {
+                    "metric_x": 0,
+                    "metric_y": 0,
+                    "participant_id": "PB_3"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Recall",
+                "y_axis": "Precision"
+            }
+        }
+    },
+    "type": "aggregation"
+}

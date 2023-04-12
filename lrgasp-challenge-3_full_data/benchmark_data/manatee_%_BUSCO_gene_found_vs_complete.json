@@ -1,0 +1,63 @@
+{
+    "_id": "OEBE0100000000",
+    "challenge_ids": [
+        "manatee_%_BUSCO_gene_found_vs_complete"
+    ],
+    "datalink": {
+        "inline_data": {
+        "challenge_participants": [
+		{
+		    "metric_x": 49.568889670948444,
+		    "metric_y": 32.10452225937005,
+		    "participant_id": "illumina_1"
+		},
+		{
+		    "metric_x": 0,
+		    "metric_y": 0,
+		    "participant_id": "ONT_1"
+		},
+		{
+		    "metric_x": 56.97694879465072,
+		    "metric_y": 49.3401372514517,
+		    "participant_id": "ONT_2"
+		},
+		{
+		    "metric_x": 55.754003167341196,
+		    "metric_y": 49.09378849199367,
+		    "participant_id": "ONT_3"
+		},
+		{
+		    "metric_x": 50.27274326939997,
+		    "metric_y": 33.60900932606018,
+		    "participant_id": "ONT_4"
+		},
+		{
+		    "metric_x": 58.92134436037304,
+		    "metric_y": 51.266936477212745,
+		    "participant_id": "ONT_5"
+		},
+		{
+		    "metric_x": 0.7302481083934542,
+		    "metric_y": 0.09677986978708429,
+		    "participant_id": "PB_1"
+		},
+		{
+		    "metric_x": 30.35368643322189,
+		    "metric_y": 21.951434101706845,
+		    "participant_id": "PB_2"
+		},
+		{
+		    "metric_x": 46.163997888439205,
+		    "metric_y": 31.41826500087982,
+		    "participant_id": "PB_3"
+		}
+	    ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% BUSCO gene found (complete + fragment)",
+                "y_axis": "% BUSCO gene complete"
+            }
+        }
+    },
+    "type": "aggregation"
+}

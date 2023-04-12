@@ -23,7 +23,6 @@ mv lrgasp-challenge-3_manatee_benchmarking_workflow LRGASP_manatee
 ```
 cd LRGASP_manatee
 bash ./materialize-data.sh
-bash ./materialize-containers.sh
 ```
 4. Run the tests from LRGASP_manatee example
 ```

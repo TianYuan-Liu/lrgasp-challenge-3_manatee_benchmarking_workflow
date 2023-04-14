@@ -67,7 +67,7 @@
             "file": {
                 "file_type": "JSON",
                 "data_type": "validated_participant",
-                "file_path": "LRGASP-test/validated-participant-data.json",
+                "file_path": "LRGASP_manatee-test/validated-participant-data.json",
                 "compressed": "null",
                 "meta_data": {
                     "description": "Benchmarking data model minimal participant dataset",

@@ -1,63 +1,61 @@
 {
-    "_id": "OEBE0100000000",
-    "challenge_ids": [
-        "manatee_len"
-    ],
-    "datalink": {
-        "inline_data": {
-            "challenge_participants": [
-                {
-                    "metric_x": 1177.529,
-                    "metric_y": 719.39,
-                    "participant_id": "illumina_1"
-                },
-                {
-                    "metric_x": 0,
-                    "metric_y": 0,
-                    "participant_id": "ONT_1"
-                },
-                {
-                    "metric_x": 1721.73,
-                    "metric_y": 1287.71,
-                    "participant_id": "ONT_2"
-                },
-                {
-                    "metric_x": 1998.02,
-                    "metric_y": 1748.75,
-                    "participant_id": "ONT_3"
-                },
-                {
-                    "metric_x": 856.94,
-                    "metric_y": 1249.22,
-                    "participant_id": "ONT_4"
-                },
-                {
-                    "metric_x": 1808.78,
-                    "metric_y": 1370.58,
-                    "participant_id": "ONT_5"
-                },
-                {
-                    "metric_x": 410.11,
-                    "metric_y": 409.85,
-                    "participant_id": "PB_1"
-                },
-                {
-                    "metric_x": 1519.39,
-                    "metric_y": 854.99,
-                    "participant_id": "PB_2"
-                },
-                {
-                    "metric_x": 1084.90,
-                    "metric_y": 1414.67,
-                    "participant_id": "PB_3"
-                }
-            ],
-            "visualization": {
-                "type": "2D-plot",
-                "x_axis": "Average length of transcripts",
-                "y_axis": "Standard deviation of transcripts"
-            }
+  "_id": "OEBE0100000000",
+  "challenge_ids": "manatee_len",
+  "datalink": {
+    "inline_data": {
+      "challenge_participants": [
+        {
+          "metric_x": 1177.529,
+          "metric_y": 719.39,
+          "participant_id": "cDNA_Illumina_SO_rS"
+        },
+        {
+          "metric_x": 0,
+          "metric_y": 0,
+          "participant_id": "CapTrap_ONT_LO_Ba"
+        },
+        {
+          "metric_x": 1721.73,
+          "metric_y": 1287.71,
+          "participant_id": "cDNA_ONT_LO_Ba"
+        },
+        {
+          "metric_x": 1998.02,
+          "metric_y": 1748.75,
+          "participant_id": "dRNA_ONT_LO_Ba"
+        },
+        {
+          "metric_x": 856.94,
+          "metric_y": 1249.22,
+          "participant_id": "R2C2_ONT_LO_Ba"
+        },
+        {
+          "metric_x": 1808.78,
+          "metric_y": 1370.58,
+          "participant_id": "cDNA_ONT_LO_Bl"
+        },
+        {
+          "metric_x": 410.11,
+          "metric_y": 409.85,
+          "participant_id": "CapTrap_PacBio_LO_Ba"
+        },
+        {
+          "metric_x": 1519.39,
+          "metric_y": 854.99,
+          "participant_id": "cDNA_PacBio_LO_Ba"
+        },
+        {
+          "metric_x": 1084.9,
+          "metric_y": 1414.67,
+          "participant_id": "CapTrap_PacBio_LO_IQ"
         }
-    },
-    "type": "aggregation"
+      ],
+      "visualization": {
+        "type": "2D-plot",
+        "x_axis": "Average length of transcripts",
+        "y_axis": "Standard deviation of transcripts"
+      }
+    }
+  },
+  "type": "aggregation"
 }

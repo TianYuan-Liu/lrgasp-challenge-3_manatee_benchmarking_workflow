@@ -3,16 +3,17 @@ The workflow used to run the [LRGASP event 2 docker](https://github.com/TianYuan
 
 The repository includes several files:
 
-1. Example input dataset `lrgasp-challenge-3_full_data` folder.
-2. `config.json`:  the configuration file of the workflow. It contains different elements under arguments, including the git repository of the workflow, the specific commit to try, the community id, a participant id and the parameter with the challenges to compute. 
-3. `in_metadata.json`: define the directories of the input files. The file declares the input files' detail locations inside the `config.json`.
-4. `materalize-data.sh`: materialize the datasets needed in pre-defined relative paths
-5. `materialize-containers.sh`: building the needed containers for LRGASP workflow 
+1. `lrgasp-challenge-3_full_data` folder: An example input dataset.
+2. `config.json`:  The workflow configuration file containing various elements under arguments, such as the workflow's git repository, specific commit, community id, participant id, and the parameters for the challenges to compute.
+3. `in_metadata.json`: Defines the input files' directories. The file specifies the input files' detailed locations within the  `config.json`.
+4. `materalize-data.sh`:  Downloads the required datasets to pre-defined relative paths.
+5. `materialize-containers.sh`: Builds the necessary containers for the LRGASP workflow (not currently in use, directly downloads from Docker Hub instead).
 
 ## Usage
 1. Install [OpenEBench VRE executor](https://github.com/inab/vre-process_nextflow-executor/blob/master/INSTALL.md) and go to the **tests** folder
 ```
 cd vre-process_nextflow-executor/tests
+source .py3Env/bin/activate
 ```
 2. Clone the [LRGASP workflow repository](https://github.com/TianYuan-Liu/lrgasp-challenge-3_manatee_benchmarking_workflow) and rename the folder to  LRGASP_manatee
 ```

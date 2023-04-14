@@ -12,8 +12,8 @@ The repository includes several files:
 ## Usage
 1. Install [OpenEBench VRE executor](https://github.com/inab/vre-process_nextflow-executor/blob/master/INSTALL.md) and go to the **tests** folder
 ```
-cd vre-process_nextflow-executor/tests
 source .py3Env/bin/activate
+cd vre-process_nextflow-executor/tests
 ```
 2. Clone the [LRGASP workflow repository](https://github.com/TianYuan-Liu/lrgasp-challenge-3_manatee_benchmarking_workflow) and rename the folder to  LRGASP_manatee
 ```

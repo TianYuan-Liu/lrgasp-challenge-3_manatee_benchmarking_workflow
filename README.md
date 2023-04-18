@@ -1,5 +1,5 @@
-# LRGASP Event 2 (challenge 3) OpenEBench workflow
-The workflow used to run the [LRGASP event 2 docker](https://github.com/TianYuan-Liu/lrgasp-challenge-3_benchmarking_docker) in the [OpenEBench VRE executor](https://github.com/inab/vre-process_nextflow-executor). 
+# LRGASP challenge 3 OpenEBench manatee workflow
+The workflow used to run the [LRGASP challenge 3 manatee docker](https://github.com/TianYuan-Liu/lrgasp-challenge-3_manatee_benchmarking_docker) in the [OpenEBench VRE executor](https://github.com/inab/vre-process_nextflow-executor). 
 
 The repository includes several files:
 
@@ -16,7 +16,7 @@ cd vre-process_nextflow-executor
 source .py3Env/bin/activate
 cd tests
 ```
-2. Clone the [LRGASP workflow repository](https://github.com/TianYuan-Liu/lrgasp-challenge-3_manatee_benchmarking_workflow) and rename the folder to  LRGASP_manatee
+2. Clone the [LRGASP manatee workflow repository](https://github.com/TianYuan-Liu/lrgasp-challenge-3_manatee_benchmarking_workflow) and rename the folder to  LRGASP_manatee
 ```
 git clone https://github.com/TianYuan-Liu/lrgasp-challenge-3_manatee_benchmarking_workflow.git
 mv lrgasp-challenge-3_manatee_benchmarking_workflow LRGASP_manatee

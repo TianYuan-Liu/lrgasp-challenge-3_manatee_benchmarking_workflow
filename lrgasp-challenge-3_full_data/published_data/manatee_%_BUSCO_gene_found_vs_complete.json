@@ -1,0 +1,471 @@
+[
+{
+    "_id": "LRGASP:rnaSPAdes_P",
+    "challenge_id": [
+        "manatee_%_BUSCO_gene_found_vs_complete_cDNA-Illumina-SO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:39:51.530000+02:00"
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:Bambu_P",
+    "challenge_id": [
+        "manatee_%_BUSCO_gene_found_vs_complete_CapTrap-ONT-LO",
+        "manatee_%_BUSCO_gene_found_vs_complete_cDNA-ONT-LO",
+        "manatee_%_BUSCO_gene_found_vs_complete_dRNA-ONT-LO",
+        "manatee_%_BUSCO_gene_found_vs_complete_R2C2-ONT-LO",
+        "manatee_%_BUSCO_gene_found_vs_complete_CapTrap-PacBio-LO",
+        "manatee_%_BUSCO_gene_found_vs_complete_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:39:51.530000+02:00"
+    },
+    "participant_id": "Bambu",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:RNA-Bloom_P",
+    "challenge_id": [
+        "manatee_%_BUSCO_gene_found_vs_complete_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:39:51.530000+02:00"
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:StringTie2--IsoQuant_P",
+    "challenge_id": [
+        "manatee_%_BUSCO_gene_found_vs_complete_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:39:51.530000+02:00"
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:manatee_%_BUSCO_gene_found_vs_complete_cDNA-Illumina-SO_rnaSPAdes_% BUSCO gene found (complete + fragment)_A",
+    "challenge_id": "manatee_%_BUSCO_gene_found_vs_complete_cDNA-Illumina-SO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% BUSCO gene found (complete + fragment)",
+        "value": 49.5689
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_BUSCO_gene_found_vs_complete_cDNA-Illumina-SO_rnaSPAdes_% BUSCO gene complete_A",
+    "challenge_id": "manatee_%_BUSCO_gene_found_vs_complete_cDNA-Illumina-SO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% BUSCO gene complete",
+        "value": 32.1045
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_BUSCO_gene_found_vs_complete_CapTrap-ONT-LO_Bambu_% BUSCO gene found (complete + fragment)_A",
+    "challenge_id": "manatee_%_BUSCO_gene_found_vs_complete_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% BUSCO gene found (complete + fragment)",
+        "value": 0
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_BUSCO_gene_found_vs_complete_CapTrap-ONT-LO_Bambu_% BUSCO gene complete_A",
+    "challenge_id": "manatee_%_BUSCO_gene_found_vs_complete_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% BUSCO gene complete",
+        "value": 0
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_BUSCO_gene_found_vs_complete_cDNA-ONT-LO_Bambu_% BUSCO gene found (complete + fragment)_A",
+    "challenge_id": "manatee_%_BUSCO_gene_found_vs_complete_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% BUSCO gene found (complete + fragment)",
+        "value": 56.9769
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_BUSCO_gene_found_vs_complete_cDNA-ONT-LO_Bambu_% BUSCO gene complete_A",
+    "challenge_id": "manatee_%_BUSCO_gene_found_vs_complete_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% BUSCO gene complete",
+        "value": 49.3401
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_BUSCO_gene_found_vs_complete_dRNA-ONT-LO_Bambu_% BUSCO gene found (complete + fragment)_A",
+    "challenge_id": "manatee_%_BUSCO_gene_found_vs_complete_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% BUSCO gene found (complete + fragment)",
+        "value": 55.754
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_BUSCO_gene_found_vs_complete_dRNA-ONT-LO_Bambu_% BUSCO gene complete_A",
+    "challenge_id": "manatee_%_BUSCO_gene_found_vs_complete_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% BUSCO gene complete",
+        "value": 49.0938
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_BUSCO_gene_found_vs_complete_R2C2-ONT-LO_Bambu_% BUSCO gene found (complete + fragment)_A",
+    "challenge_id": "manatee_%_BUSCO_gene_found_vs_complete_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% BUSCO gene found (complete + fragment)",
+        "value": 50.2727
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_BUSCO_gene_found_vs_complete_R2C2-ONT-LO_Bambu_% BUSCO gene complete_A",
+    "challenge_id": "manatee_%_BUSCO_gene_found_vs_complete_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% BUSCO gene complete",
+        "value": 33.609
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_BUSCO_gene_found_vs_complete_cDNA-ONT-LO_RNA-Bloom_% BUSCO gene found (complete + fragment)_A",
+    "challenge_id": "manatee_%_BUSCO_gene_found_vs_complete_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% BUSCO gene found (complete + fragment)",
+        "value": 58.9213
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_BUSCO_gene_found_vs_complete_cDNA-ONT-LO_RNA-Bloom_% BUSCO gene complete_A",
+    "challenge_id": "manatee_%_BUSCO_gene_found_vs_complete_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% BUSCO gene complete",
+        "value": 51.2669
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_BUSCO_gene_found_vs_complete_CapTrap-PacBio-LO_Bambu_% BUSCO gene found (complete + fragment)_A",
+    "challenge_id": "manatee_%_BUSCO_gene_found_vs_complete_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% BUSCO gene found (complete + fragment)",
+        "value": 0.7302
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_BUSCO_gene_found_vs_complete_CapTrap-PacBio-LO_Bambu_% BUSCO gene complete_A",
+    "challenge_id": "manatee_%_BUSCO_gene_found_vs_complete_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% BUSCO gene complete",
+        "value": 0.0968
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_BUSCO_gene_found_vs_complete_cDNA-PacBio-LO_Bambu_% BUSCO gene found (complete + fragment)_A",
+    "challenge_id": "manatee_%_BUSCO_gene_found_vs_complete_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% BUSCO gene found (complete + fragment)",
+        "value": 30.3537
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_BUSCO_gene_found_vs_complete_cDNA-PacBio-LO_Bambu_% BUSCO gene complete_A",
+    "challenge_id": "manatee_%_BUSCO_gene_found_vs_complete_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% BUSCO gene complete",
+        "value": 21.9514
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_BUSCO_gene_found_vs_complete_CapTrap-PacBio-LO_StringTie2--IsoQuant_% BUSCO gene found (complete + fragment)_A",
+    "challenge_id": "manatee_%_BUSCO_gene_found_vs_complete_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% BUSCO gene found (complete + fragment)",
+        "value": 46.164
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_BUSCO_gene_found_vs_complete_CapTrap-PacBio-LO_StringTie2--IsoQuant_% BUSCO gene complete_A",
+    "challenge_id": "manatee_%_BUSCO_gene_found_vs_complete_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% BUSCO gene complete",
+        "value": 31.4183
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_BUSCO_gene_found_vs_complete_cDNA-Illumina-SO_agg_% BUSCO gene found (complete + fragment)+% BUSCO gene complete",
+    "challenge_ids": [
+        "manatee_%_BUSCO_gene_found_vs_complete_cDNA-Illumina-SO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 49.5689,
+                    "metric_y": 32.1045,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% BUSCO gene found (complete + fragment)",
+                "y_axis": "% BUSCO gene complete"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:manatee_%_BUSCO_gene_found_vs_complete_CapTrap-ONT-LO_agg_% BUSCO gene found (complete + fragment)+% BUSCO gene complete",
+    "challenge_ids": [
+        "manatee_%_BUSCO_gene_found_vs_complete_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 0,
+                    "metric_y": 0,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% BUSCO gene found (complete + fragment)",
+                "y_axis": "% BUSCO gene complete"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:manatee_%_BUSCO_gene_found_vs_complete_cDNA-ONT-LO_agg_% BUSCO gene found (complete + fragment)+% BUSCO gene complete",
+    "challenge_ids": [
+        "manatee_%_BUSCO_gene_found_vs_complete_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 56.9769,
+                    "metric_y": 49.3401,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 58.9213,
+                    "metric_y": 51.2669,
+                    "participant_id": "RNA-Bloom"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% BUSCO gene found (complete + fragment)",
+                "y_axis": "% BUSCO gene complete"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:manatee_%_BUSCO_gene_found_vs_complete_dRNA-ONT-LO_agg_% BUSCO gene found (complete + fragment)+% BUSCO gene complete",
+    "challenge_ids": [
+        "manatee_%_BUSCO_gene_found_vs_complete_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 55.754,
+                    "metric_y": 49.0938,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% BUSCO gene found (complete + fragment)",
+                "y_axis": "% BUSCO gene complete"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:manatee_%_BUSCO_gene_found_vs_complete_R2C2-ONT-LO_agg_% BUSCO gene found (complete + fragment)+% BUSCO gene complete",
+    "challenge_ids": [
+        "manatee_%_BUSCO_gene_found_vs_complete_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 50.2727,
+                    "metric_y": 33.609,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% BUSCO gene found (complete + fragment)",
+                "y_axis": "% BUSCO gene complete"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:manatee_%_BUSCO_gene_found_vs_complete_CapTrap-PacBio-LO_agg_% BUSCO gene found (complete + fragment)+% BUSCO gene complete",
+    "challenge_ids": [
+        "manatee_%_BUSCO_gene_found_vs_complete_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 0.7302,
+                    "metric_y": 0.0968,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 46.164,
+                    "metric_y": 31.4183,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% BUSCO gene found (complete + fragment)",
+                "y_axis": "% BUSCO gene complete"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:manatee_%_BUSCO_gene_found_vs_complete_cDNA-PacBio-LO_agg_% BUSCO gene found (complete + fragment)+% BUSCO gene complete",
+    "challenge_ids": [
+        "manatee_%_BUSCO_gene_found_vs_complete_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 30.3537,
+                    "metric_y": 21.9514,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% BUSCO gene found (complete + fragment)",
+                "y_axis": "% BUSCO gene complete"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "id": "manatee_%_BUSCO_gene_found_vs_complete_cDNA-Illumina-SO",
+    "participants": [
+        "rnaSPAdes"
+    ]
+},
+{
+    "id": "manatee_%_BUSCO_gene_found_vs_complete_CapTrap-ONT-LO",
+    "participants": [
+        "Bambu"
+    ]
+},
+{
+    "id": "manatee_%_BUSCO_gene_found_vs_complete_cDNA-ONT-LO",
+    "participants": [
+        "RNA-Bloom"
+    ]
+},
+{
+    "id": "manatee_%_BUSCO_gene_found_vs_complete_CapTrap-PacBio-LO",
+    "participants": [
+        "StringTie2--IsoQuant"
+    ]
+}
+]

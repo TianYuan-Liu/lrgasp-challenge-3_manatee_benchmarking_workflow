@@ -1,0 +1,471 @@
+[
+{
+    "_id": "LRGASP:rnaSPAdes_P",
+    "challenge_id": [
+        "manatee_sirvs_cDNA-Illumina-SO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:39:51.530000+02:00"
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:Bambu_P",
+    "challenge_id": [
+        "manatee_sirvs_CapTrap-ONT-LO",
+        "manatee_sirvs_cDNA-ONT-LO",
+        "manatee_sirvs_dRNA-ONT-LO",
+        "manatee_sirvs_R2C2-ONT-LO",
+        "manatee_sirvs_CapTrap-PacBio-LO",
+        "manatee_sirvs_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:39:51.530000+02:00"
+    },
+    "participant_id": "Bambu",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:RNA-Bloom_P",
+    "challenge_id": [
+        "manatee_sirvs_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:39:51.530000+02:00"
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:StringTie2--IsoQuant_P",
+    "challenge_id": [
+        "manatee_sirvs_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:39:51.530000+02:00"
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:manatee_sirvs_cDNA-Illumina-SO_rnaSPAdes_Recall_A",
+    "challenge_id": "manatee_sirvs_cDNA-Illumina-SO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Recall",
+        "value": 0
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_sirvs_cDNA-Illumina-SO_rnaSPAdes_Precision_A",
+    "challenge_id": "manatee_sirvs_cDNA-Illumina-SO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Precision",
+        "value": 0
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_sirvs_CapTrap-ONT-LO_Bambu_Recall_A",
+    "challenge_id": "manatee_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Recall",
+        "value": 0.01
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_sirvs_CapTrap-ONT-LO_Bambu_Precision_A",
+    "challenge_id": "manatee_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Precision",
+        "value": 0.02
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_sirvs_cDNA-ONT-LO_Bambu_Recall_A",
+    "challenge_id": "manatee_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Recall",
+        "value": 0.65
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_sirvs_cDNA-ONT-LO_Bambu_Precision_A",
+    "challenge_id": "manatee_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Precision",
+        "value": 0.04
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_sirvs_dRNA-ONT-LO_Bambu_Recall_A",
+    "challenge_id": "manatee_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Recall",
+        "value": 0.22
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_sirvs_dRNA-ONT-LO_Bambu_Precision_A",
+    "challenge_id": "manatee_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Precision",
+        "value": 0.16
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_sirvs_R2C2-ONT-LO_Bambu_Recall_A",
+    "challenge_id": "manatee_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Recall",
+        "value": 0
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_sirvs_R2C2-ONT-LO_Bambu_Precision_A",
+    "challenge_id": "manatee_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Precision",
+        "value": 0
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_sirvs_cDNA-ONT-LO_RNA-Bloom_Recall_A",
+    "challenge_id": "manatee_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Recall",
+        "value": 0.38
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_sirvs_cDNA-ONT-LO_RNA-Bloom_Precision_A",
+    "challenge_id": "manatee_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Precision",
+        "value": 0.13
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_sirvs_CapTrap-PacBio-LO_Bambu_Recall_A",
+    "challenge_id": "manatee_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Recall",
+        "value": 0.01
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_sirvs_CapTrap-PacBio-LO_Bambu_Precision_A",
+    "challenge_id": "manatee_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Precision",
+        "value": 0.05
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_sirvs_cDNA-PacBio-LO_Bambu_Recall_A",
+    "challenge_id": "manatee_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Recall",
+        "value": 0.22
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_sirvs_cDNA-PacBio-LO_Bambu_Precision_A",
+    "challenge_id": "manatee_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Precision",
+        "value": 0.39
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_sirvs_CapTrap-PacBio-LO_StringTie2--IsoQuant_Recall_A",
+    "challenge_id": "manatee_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Recall",
+        "value": 0
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_sirvs_CapTrap-PacBio-LO_StringTie2--IsoQuant_Precision_A",
+    "challenge_id": "manatee_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Precision",
+        "value": 0
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_sirvs_cDNA-Illumina-SO_agg_Recall+Precision",
+    "challenge_ids": [
+        "manatee_sirvs_cDNA-Illumina-SO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 0,
+                    "metric_y": 0,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Recall",
+                "y_axis": "Precision"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:manatee_sirvs_CapTrap-ONT-LO_agg_Recall+Precision",
+    "challenge_ids": [
+        "manatee_sirvs_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 0.01,
+                    "metric_y": 0.02,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Recall",
+                "y_axis": "Precision"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:manatee_sirvs_cDNA-ONT-LO_agg_Recall+Precision",
+    "challenge_ids": [
+        "manatee_sirvs_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 0.65,
+                    "metric_y": 0.04,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 0.38,
+                    "metric_y": 0.13,
+                    "participant_id": "RNA-Bloom"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Recall",
+                "y_axis": "Precision"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:manatee_sirvs_dRNA-ONT-LO_agg_Recall+Precision",
+    "challenge_ids": [
+        "manatee_sirvs_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 0.22,
+                    "metric_y": 0.16,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Recall",
+                "y_axis": "Precision"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:manatee_sirvs_R2C2-ONT-LO_agg_Recall+Precision",
+    "challenge_ids": [
+        "manatee_sirvs_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 0,
+                    "metric_y": 0,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Recall",
+                "y_axis": "Precision"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:manatee_sirvs_CapTrap-PacBio-LO_agg_Recall+Precision",
+    "challenge_ids": [
+        "manatee_sirvs_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 0.01,
+                    "metric_y": 0.05,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 0,
+                    "metric_y": 0,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Recall",
+                "y_axis": "Precision"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:manatee_sirvs_cDNA-PacBio-LO_agg_Recall+Precision",
+    "challenge_ids": [
+        "manatee_sirvs_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 0.22,
+                    "metric_y": 0.39,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Recall",
+                "y_axis": "Precision"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "id": "manatee_sirvs_cDNA-Illumina-SO",
+    "participants": [
+        "rnaSPAdes"
+    ]
+},
+{
+    "id": "manatee_sirvs_CapTrap-ONT-LO",
+    "participants": [
+        "Bambu"
+    ]
+},
+{
+    "id": "manatee_sirvs_cDNA-ONT-LO",
+    "participants": [
+        "RNA-Bloom"
+    ]
+},
+{
+    "id": "manatee_sirvs_CapTrap-PacBio-LO",
+    "participants": [
+        "StringTie2--IsoQuant"
+    ]
+}
+]

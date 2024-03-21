@@ -1,0 +1,471 @@
+[
+{
+    "_id": "LRGASP:rnaSPAdes_P",
+    "challenge_id": [
+        "manatee_%_trans_with_intra-priming_vs_rt_switching_cDNA-Illumina-SO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:39:51.530000+02:00"
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:Bambu_P",
+    "challenge_id": [
+        "manatee_%_trans_with_intra-priming_vs_rt_switching_CapTrap-ONT-LO",
+        "manatee_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO",
+        "manatee_%_trans_with_intra-priming_vs_rt_switching_dRNA-ONT-LO",
+        "manatee_%_trans_with_intra-priming_vs_rt_switching_R2C2-ONT-LO",
+        "manatee_%_trans_with_intra-priming_vs_rt_switching_CapTrap-PacBio-LO",
+        "manatee_%_trans_with_intra-priming_vs_rt_switching_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:39:51.530000+02:00"
+    },
+    "participant_id": "Bambu",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:RNA-Bloom_P",
+    "challenge_id": [
+        "manatee_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:39:51.530000+02:00"
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:StringTie2--IsoQuant_P",
+    "challenge_id": [
+        "manatee_%_trans_with_intra-priming_vs_rt_switching_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:39:51.530000+02:00"
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:manatee_%_trans_with_intra-priming_vs_rt_switching_cDNA-Illumina-SO_rnaSPAdes_% Transcripts with possible RT-switching_A",
+    "challenge_id": "manatee_%_trans_with_intra-priming_vs_rt_switching_cDNA-Illumina-SO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible RT-switching",
+        "value": 0.81
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_trans_with_intra-priming_vs_rt_switching_cDNA-Illumina-SO_rnaSPAdes_% Transcripts with possible intra-priming_A",
+    "challenge_id": "manatee_%_trans_with_intra-priming_vs_rt_switching_cDNA-Illumina-SO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible intra-priming",
+        "value": 2.81
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_trans_with_intra-priming_vs_rt_switching_CapTrap-ONT-LO_Bambu_% Transcripts with possible RT-switching_A",
+    "challenge_id": "manatee_%_trans_with_intra-priming_vs_rt_switching_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible RT-switching",
+        "value": 100
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_trans_with_intra-priming_vs_rt_switching_CapTrap-ONT-LO_Bambu_% Transcripts with possible intra-priming_A",
+    "challenge_id": "manatee_%_trans_with_intra-priming_vs_rt_switching_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible intra-priming",
+        "value": 100
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO_Bambu_% Transcripts with possible RT-switching_A",
+    "challenge_id": "manatee_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible RT-switching",
+        "value": 3.56
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO_Bambu_% Transcripts with possible intra-priming_A",
+    "challenge_id": "manatee_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible intra-priming",
+        "value": 16.19
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_trans_with_intra-priming_vs_rt_switching_dRNA-ONT-LO_Bambu_% Transcripts with possible RT-switching_A",
+    "challenge_id": "manatee_%_trans_with_intra-priming_vs_rt_switching_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible RT-switching",
+        "value": 4.34
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_trans_with_intra-priming_vs_rt_switching_dRNA-ONT-LO_Bambu_% Transcripts with possible intra-priming_A",
+    "challenge_id": "manatee_%_trans_with_intra-priming_vs_rt_switching_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible intra-priming",
+        "value": 0.78
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_trans_with_intra-priming_vs_rt_switching_R2C2-ONT-LO_Bambu_% Transcripts with possible RT-switching_A",
+    "challenge_id": "manatee_%_trans_with_intra-priming_vs_rt_switching_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible RT-switching",
+        "value": 1.31
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_trans_with_intra-priming_vs_rt_switching_R2C2-ONT-LO_Bambu_% Transcripts with possible intra-priming_A",
+    "challenge_id": "manatee_%_trans_with_intra-priming_vs_rt_switching_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible intra-priming",
+        "value": 4.04
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO_RNA-Bloom_% Transcripts with possible RT-switching_A",
+    "challenge_id": "manatee_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible RT-switching",
+        "value": 3.55
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO_RNA-Bloom_% Transcripts with possible intra-priming_A",
+    "challenge_id": "manatee_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible intra-priming",
+        "value": 17.56
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_trans_with_intra-priming_vs_rt_switching_CapTrap-PacBio-LO_Bambu_% Transcripts with possible RT-switching_A",
+    "challenge_id": "manatee_%_trans_with_intra-priming_vs_rt_switching_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible RT-switching",
+        "value": 1.41
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_trans_with_intra-priming_vs_rt_switching_CapTrap-PacBio-LO_Bambu_% Transcripts with possible intra-priming_A",
+    "challenge_id": "manatee_%_trans_with_intra-priming_vs_rt_switching_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible intra-priming",
+        "value": 7.72
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_trans_with_intra-priming_vs_rt_switching_cDNA-PacBio-LO_Bambu_% Transcripts with possible RT-switching_A",
+    "challenge_id": "manatee_%_trans_with_intra-priming_vs_rt_switching_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible RT-switching",
+        "value": 5.51
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_trans_with_intra-priming_vs_rt_switching_cDNA-PacBio-LO_Bambu_% Transcripts with possible intra-priming_A",
+    "challenge_id": "manatee_%_trans_with_intra-priming_vs_rt_switching_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible intra-priming",
+        "value": 26.98
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_trans_with_intra-priming_vs_rt_switching_CapTrap-PacBio-LO_StringTie2--IsoQuant_% Transcripts with possible RT-switching_A",
+    "challenge_id": "manatee_%_trans_with_intra-priming_vs_rt_switching_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible RT-switching",
+        "value": 1.66
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_trans_with_intra-priming_vs_rt_switching_CapTrap-PacBio-LO_StringTie2--IsoQuant_% Transcripts with possible intra-priming_A",
+    "challenge_id": "manatee_%_trans_with_intra-priming_vs_rt_switching_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible intra-priming",
+        "value": 4.53
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:manatee_%_trans_with_intra-priming_vs_rt_switching_cDNA-Illumina-SO_agg_% Transcripts with possible RT-switching+% Transcripts with possible intra-priming",
+    "challenge_ids": [
+        "manatee_%_trans_with_intra-priming_vs_rt_switching_cDNA-Illumina-SO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 0.81,
+                    "metric_y": 2.81,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts with possible RT-switching",
+                "y_axis": "% Transcripts with possible intra-priming"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:manatee_%_trans_with_intra-priming_vs_rt_switching_CapTrap-ONT-LO_agg_% Transcripts with possible RT-switching+% Transcripts with possible intra-priming",
+    "challenge_ids": [
+        "manatee_%_trans_with_intra-priming_vs_rt_switching_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 100,
+                    "metric_y": 100,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts with possible RT-switching",
+                "y_axis": "% Transcripts with possible intra-priming"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:manatee_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO_agg_% Transcripts with possible RT-switching+% Transcripts with possible intra-priming",
+    "challenge_ids": [
+        "manatee_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 3.56,
+                    "metric_y": 16.19,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 3.55,
+                    "metric_y": 17.56,
+                    "participant_id": "RNA-Bloom"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts with possible RT-switching",
+                "y_axis": "% Transcripts with possible intra-priming"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:manatee_%_trans_with_intra-priming_vs_rt_switching_dRNA-ONT-LO_agg_% Transcripts with possible RT-switching+% Transcripts with possible intra-priming",
+    "challenge_ids": [
+        "manatee_%_trans_with_intra-priming_vs_rt_switching_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 4.34,
+                    "metric_y": 0.78,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts with possible RT-switching",
+                "y_axis": "% Transcripts with possible intra-priming"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:manatee_%_trans_with_intra-priming_vs_rt_switching_R2C2-ONT-LO_agg_% Transcripts with possible RT-switching+% Transcripts with possible intra-priming",
+    "challenge_ids": [
+        "manatee_%_trans_with_intra-priming_vs_rt_switching_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 1.31,
+                    "metric_y": 4.04,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts with possible RT-switching",
+                "y_axis": "% Transcripts with possible intra-priming"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:manatee_%_trans_with_intra-priming_vs_rt_switching_CapTrap-PacBio-LO_agg_% Transcripts with possible RT-switching+% Transcripts with possible intra-priming",
+    "challenge_ids": [
+        "manatee_%_trans_with_intra-priming_vs_rt_switching_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 1.41,
+                    "metric_y": 7.72,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 1.66,
+                    "metric_y": 4.53,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts with possible RT-switching",
+                "y_axis": "% Transcripts with possible intra-priming"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:manatee_%_trans_with_intra-priming_vs_rt_switching_cDNA-PacBio-LO_agg_% Transcripts with possible RT-switching+% Transcripts with possible intra-priming",
+    "challenge_ids": [
+        "manatee_%_trans_with_intra-priming_vs_rt_switching_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 5.51,
+                    "metric_y": 26.98,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts with possible RT-switching",
+                "y_axis": "% Transcripts with possible intra-priming"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "id": "manatee_%_trans_with_intra-priming_vs_rt_switching_cDNA-Illumina-SO",
+    "participants": [
+        "rnaSPAdes"
+    ]
+},
+{
+    "id": "manatee_%_trans_with_intra-priming_vs_rt_switching_CapTrap-ONT-LO",
+    "participants": [
+        "Bambu"
+    ]
+},
+{
+    "id": "manatee_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO",
+    "participants": [
+        "RNA-Bloom"
+    ]
+},
+{
+    "id": "manatee_%_trans_with_intra-priming_vs_rt_switching_CapTrap-PacBio-LO",
+    "participants": [
+        "StringTie2--IsoQuant"
+    ]
+}
+]

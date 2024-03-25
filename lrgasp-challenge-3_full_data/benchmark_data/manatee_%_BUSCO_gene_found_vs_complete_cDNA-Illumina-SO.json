@@ -1,0 +1,24 @@
+{
+    "_id": "LRGASP:manatee_%_BUSCO_gene_found_vs_complete_cDNA-Illumina-SO_agg_% BUSCO gene found (complete + fragment)+% BUSCO gene complete",
+    "challenge_ids": [
+        "manatee_%_BUSCO_gene_found_vs_complete_cDNA-Illumina-SO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 49.5689,
+                    "metric_y": 32.1045,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% BUSCO gene found (complete + fragment)",
+                "y_axis": "% BUSCO gene complete"
+            }
+        }
+    },
+    "type": "aggregation"
+}
